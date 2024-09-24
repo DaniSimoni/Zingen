@@ -14,13 +14,13 @@
 }
 
 :root {
-    --bg-collor: #09090B;
+    --bg-color: #09090B;
     --suface-color: #18181b;
     --stroke-color: #27272a;
     --text-color-primary: #f4f4f5;
     --text-color-secundary: #a1a1aa;
     --brand-color-primary: #f7b733;
-    --brand-color-secundary: #fc4a1a;
+    --brand-color-secondary: #fc4a1a;
 
     --ff-sans: 'Inter', system-ui, sans-serif;
     --fw-base: 400;
@@ -49,7 +49,7 @@ html {
 }
 
 body {
-    background-color: var(--bg-collor);
+    background-color: var(--bg-color);
 }
 
 h1, h2, h3 {
