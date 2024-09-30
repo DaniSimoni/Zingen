@@ -23,7 +23,7 @@
 }
 
 .btn:hover {
-    --btn-bg-color: linear-gradient(
+    --bg-color: linear-gradient(
         90deg,
         var(--brand-color-secondary) 0%,
         var(--brand-color-primary) 100%
@@ -51,7 +51,6 @@
 }
 
 .btn[aria-label] {
-
     position: relative;
 
     &::before {
@@ -65,12 +64,14 @@
     &::after {
         content: attr(aria-label);
         background: var(--btn-bg-color);
+
         -webkit-background-clip: text;
         background-clip: text;
+
         color: transparent;
         position: relative;
         z-index: 1;
-    }
+    };
 }
 
 @media (width >= 80em) {
